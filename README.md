@@ -1,2 +1,1 @@
-# java-design-patterns
-Patrones de diseño implementados en Java
+# Patrones de diseño implementados en Java
