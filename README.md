@@ -1,1 +1,1 @@
-# Patrones de diseño implementados en Java
+# Patrones de Diseño
