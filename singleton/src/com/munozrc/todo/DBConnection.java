@@ -1,11 +1,10 @@
-package com.munozrc.singleton;
+package com.munozrc.todo;
 
 public class DBConnection {
 
     private static DBConnection conn;
 
     private DBConnection() {
-        System.out.println("---> Instantiated class.");
     }
 
     public static DBConnection getDBConnection() {
@@ -24,7 +23,6 @@ public class DBConnection {
     }
 
     public void disconnect() {
-        conn = null;
         System.out.println("Successful disconnection.\n");
     }
 }
