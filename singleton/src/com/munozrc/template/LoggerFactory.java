@@ -8,7 +8,7 @@ public class LoggerFactory {
     public boolean isFileLoggingEnabled() {
 
         Properties props = new Properties();
-        String propsFilePath = "com/munozrc/plantilla/logger.properties";
+        String propsFilePath = "com/munozrc/template/logger.properties";
         InputStream fileProps = ClassLoader.getSystemResourceAsStream(propsFilePath);
 
         try {
