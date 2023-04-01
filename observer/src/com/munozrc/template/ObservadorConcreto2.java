@@ -7,7 +7,7 @@ package com.munozrc.template;
 public class ObservadorConcreto2 implements Observador {
 
     // Mantiene la asociacion con el contador
-    private Contador contador;
+    private final Contador contador;
 
     // El constructor de Medidor establece la asociacion entre Medidor-Contador
     public ObservadorConcreto2(Contador contador) {

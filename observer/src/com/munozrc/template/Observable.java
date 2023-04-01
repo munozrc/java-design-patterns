@@ -11,11 +11,11 @@ import java.util.ArrayList;
 public abstract class Observable {
 
     // Este atributo privado mantiene el vector con los observadores
-    private ArrayList<Observador> observadores;
+    private final ArrayList<Observador> observadores;
 
     // El constructor crea el vector con la asociacion Observable-Observador
     public Observable() {
-        observadores = new ArrayList<Observador>();
+        observadores = new ArrayList<>();
     }
 
     // Agregar y eliminar sencillamente operan sobre vector _observadores...
