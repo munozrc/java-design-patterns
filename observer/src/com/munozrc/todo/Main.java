@@ -11,8 +11,11 @@ public class Main {
         SalesReport.Departments dept = SalesReport.Departments.FASHION;
 
         ReportMonthly reportMonth = new ReportMonthly(report, dept, Month.JANUARY);
-        report.attach(reportMonth);
+        ReportYear reportYear = new ReportYear(report);
 
+        report.attach(reportMonth);
+        report.attach(reportYear);
+        
         report.addNewSale(dept, new Sale("Camisa", "Paola", new Date(2023, 0, 20), 120000));
         report.addNewSale(dept, new Sale("Camisa", "Paola", new Date(2023, 0, 20), 120000));
         report.addNewSale(dept, new Sale("Camisa", "Paola", new Date(2023, 0, 20), 120000));
