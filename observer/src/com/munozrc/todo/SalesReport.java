@@ -30,7 +30,7 @@ public class SalesReport extends Observable {
             this.homeSales.add(sale);
         }
 
-        System.out.println("\nNuevas venta registrada...");
+        System.out.println("\nNueva venta registrada...");
 
         this.notifyObservers();
     }
